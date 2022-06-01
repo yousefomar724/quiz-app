@@ -11,12 +11,12 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
 }) => {
   return (
     <>
-      <Box bg='white' width='100%'>
+      <Box bg='white' width='100%' maxWidth='80vw' minWidth='50vw'>
         <Box mb='6' fontSize='md' fontWeight='bold' textTransform='uppercase'>
           Your Progress: {questionNumber}/{totalQuestions}
         </Box>
         <Box>{category}</Box>
-        <Heading>
+        <Heading mb='6'>
           <Box>{questions}</Box>
         </Heading>
         <Flex direction='column'>

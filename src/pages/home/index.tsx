@@ -88,7 +88,7 @@ const Home = () => {
           <div className='greeting-box'>
             <Box boxShadow='base' p='6' rounded='md' bg='white' maxW='560px'>
               <Heading as='h1' size='lg' mb='2'>
-                Welcome to Quiz App Application
+                Welcome to A quick History quiz
               </Heading>
               <p>
                 You will be presented with {TOTAL_QUESTIONS} questions which can
